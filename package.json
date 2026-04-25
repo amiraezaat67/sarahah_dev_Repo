@@ -1,5 +1,5 @@
 {
-  "name": "sarahah_app",
+  "name": "@amiraezaat824/sarahah-app",
   "version": "1.0.0",
   "description": "",
   "main": "src/main.js",
@@ -7,7 +7,8 @@
   "scripts": {
     "start": "node .",
     "dev": "cross-env NODE_ENV=dev nodemon .",
-    "prod": "cross-env NODE_ENV=prod node ."
+    "prod": "cross-env NODE_ENV=prod node .",
+    "publish-package": "npm publish --access public"
   },
   "keywords": [],
   "author": "",
